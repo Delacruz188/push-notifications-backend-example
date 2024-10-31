@@ -8,6 +8,7 @@ const app = express();
 const port = 3001;
 
 // Claves VAPID generadas
+// const vapidKeys = webpush.generateVAPIDKeys();
 const publicVapidKey = "CAMBIAR POR LAS DE USTEDES";
 const privateVapidKey = "CAMBIAR POR LAS DE USTEDES";
 
